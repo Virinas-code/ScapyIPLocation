@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "iplocate"
+version = "0.1.0"
+description = "Localisation of an IP address using Scapy."
+authors = ["Virinas-code <alexcode228@gmail.com>"]
+license = "GPL-3.0-or-later"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+scapy = "^2.4.5"
+python-inquirer = "^1.0.3"
+
+[tool.poetry.dev-dependencies]
+poetry = "^1.1.12"
+python-language-server = {extras = ["all"], version = "^0.36.2"}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
